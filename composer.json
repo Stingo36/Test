@@ -86,20 +86,25 @@
                 "support"
             ],
             "post-create-project-cmd-message": [
-                "<bg=blue;fg=white>                                                         </>",
-                "<bg=blue;fg=white>  Congratulations, you’ve installed the Drupal codebase  </>",
-                "<bg=blue;fg=white>  from the drupal/legacy-project template!               </>",
-                "<bg=blue;fg=white>                                                         </>",
-                "",
-                "<bg=yellow;fg=black>Next steps</>:",
-                "  * Install the site: https://www.drupal.org/docs/installing-drupal",
-                "  * Read the user guide: https://www.drupal.org/docs/user_guide/en/index.html",
-                "  * Get support: https://www.drupal.org/support",
-                "  * Get involved with the Drupal community:",
-                "      https://www.drupal.org/getting-involved",
-                "  * Remove the plugin that prints this message:",
-                "      composer remove drupal/core-project-message"
+            "<bg=green;fg=black>                                                           </>",
+            "<bg=green;fg=black>  🎉 Welcome to Stingo's Custom Drupal Starter Kit!        </>",
+            "<bg=green;fg=black>                                                           </>",
+            "",
+            "<info>🚀 Next Steps:</info>",
+            "  1. Create a MySQL database for your site.",
+            "  2. Grant privileges to a DB user (e.g., GRANT ALL ON db.* TO 'user'@'localhost';).",
+            "  3. Run the installer:",
+            "     ./vendor/bin/drush site:install stingo_kit",
+            "",
+            "<info>🎉 Done!</info> Your site is ready. Enjoy building!"
             ]
+
         }
+    },
+    "scripts": {
+    "post-create-project-cmd": [
+        "php scripts/installation.php"
+    ]
     }
+
 }
