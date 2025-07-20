@@ -1,0 +1,19 @@
+uuid: f81cdd20-bbef-4ac9-9e1b-3522825f8889
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_construct_name
+    - node.type.flyfacility
+id: node.flyfacility.field_construct_name
+field_name: field_construct_name
+entity_type: node
+bundle: flyfacility
+label: 'Construct name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

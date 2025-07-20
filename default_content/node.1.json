@@ -1,0 +1,39 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8bf21b64-ed04-47ec-8b36-0c4d33026951
+  bundle: flyfacility
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Test1
+  created:
+    -
+      value: 1752943716
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_construct_name:
+    -
+      value: 'Avengers '

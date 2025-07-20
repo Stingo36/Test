@@ -1,0 +1,37 @@
+uuid: dd0dfe60-def7-42a9-b799-839a020041b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.flyfacility.body
+    - field.field.node.flyfacility.field_construct_name
+    - node.type.flyfacility
+  module:
+    - text
+    - user
+id: node.flyfacility.default
+targetEntityType: node
+bundle: flyfacility
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_construct_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

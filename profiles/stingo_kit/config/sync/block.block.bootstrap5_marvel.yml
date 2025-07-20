@@ -1,0 +1,25 @@
+uuid: d3098e91-41fc-49a2-9bd3-651804477229
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:11a1dd58-a485-4a5a-a6cb-b71f52f583f9'
+  module:
+    - block_content
+  theme:
+    - bootstrap5
+id: bootstrap5_marvel
+theme: bootstrap5
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:11a1dd58-a485-4a5a-a6cb-b71f52f583f9'
+settings:
+  id: 'block_content:11a1dd58-a485-4a5a-a6cb-b71f52f583f9'
+  label: Marvel
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

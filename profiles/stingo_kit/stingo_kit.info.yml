@@ -1,0 +1,15 @@
+name: Stingo Profile
+description: Installs Drupal with Bootstrap5 theme and Admin Toolbar module.
+core_version_requirement: ^10
+package: Custom
+type: profile
+dependencies:
+- admin_toolbar
+- admin_toolbar_tools
+- entity_reference_revisions
+- paragraphs
+- pathauto
+- token
+
+themes:
+- bootstrap5
